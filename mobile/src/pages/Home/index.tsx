@@ -57,6 +57,7 @@ const Home = () => {
   };
 
   function handleNavigateToPoints() {
+    
     navigation.navigate('Points',{
       selectedUf,
       selectedCity
@@ -99,13 +100,13 @@ const Home = () => {
             </Picker>
 
 
-            <RectButton style={styles.button} onPress={console.log(selectedCity)}>
+            <RectButton style={styles.button} onPress={handleNavigateToPoints}>
                 <View style={styles.buttonIcon}>
                     <Text>
                         <Icon name="arrow-right" color="#FFF" size={24}/>
                     </Text>
                 </View>
-                <Text style={styles.buttonText}>
+                <Text style={styles.buttonText} >
                     Entrar
                 </Text>
             </RectButton>

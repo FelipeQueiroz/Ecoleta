@@ -69,8 +69,8 @@ const Points = () =>{
       api.get('points', {
         
         params: {
-          city: routeParams.selectedCity,
-          uf: routeParams.selectedUf,
+          city: 'Brasília',
+          uf: 'DF',
           items: selectedItems
         }
       }).then(response => {
