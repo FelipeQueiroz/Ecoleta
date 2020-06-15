@@ -8,6 +8,8 @@ O projeto é divido em 3 partes:
 - Server: Onde fica todo back end da aplicação e sua conexão com banco de dados, q o usado é o mysqlite.
 
 - Web: É onde o registro de ponto de coleta é feito, para empresas, onde cadastramos algums informações como: Nome da empresa, Telefone, Email, Ponto de coleta (API do google maps), Estado, Cidade e items de coleta.
+
+
 ![alt text](https://github.com/FelipeQueiroz/Ecoleta/blob/master/prints/web.jpeg?raw=true)
 
 ![alt text](https://github.com/FelipeQueiroz/Ecoleta/blob/master/prints/web2.jpeg?raw=true)
